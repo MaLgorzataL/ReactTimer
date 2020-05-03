@@ -1,0 +1,54 @@
+@media only screen and (max-width: 489px) {
+    html {
+      display: none;
+    }
+  }
+
+@media (min-width: 490px) {
+    html {
+        display: block;
+        background-color: white;
+    }
+}
+
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: beige; 
+    border: 2px solid silver;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(149, 199, 245);
+    width: 25%;
+    max-width: 30%;
+    height: 50px;
+    line-height: 10px;
+    padding: 15px;
+    margin: 0px 4%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1 {
+    background-color: silver;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 50px auto;
+    max-width: auto;
+    width: 45%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
